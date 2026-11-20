@@ -28,6 +28,30 @@
 
         </section>
     </header>
+
+    <section class="login">
+        <h2>Crear usuario</h2>
+        <label>Usuario</label>
+        <input type="text" id="usuario">
+
+        <label>Contraseña</label>
+        <input type="password" id="clave">
+
+        <button type="button" onclick="crearUsuario()">Crear usuario</button>
+        <button type="button" onclick="iniciarSesion()">Iniciar sesión</button>
+        <p id="mensaje"></p>
+    </section>
+
+    <section class="sorteo">
+        <h2>Sorteo</h2>
+        <button type="button" class="copa" onclick="unirmeAlSorteo()">🏆</button>
+        <p>Hacé click en la copa para sumarte</p>
+        <p id="mensajeSorteo"></p>
+        <p id="listaSorteo"></p>
+        <button type="button" onclick="hacerSorteo()">Sortear</button>
+        <p id="ganador"></p>
+    </section>
+
     <main> 
         <section class="Sectionardo"> 
             <section class="anuncio"> 
@@ -60,5 +84,6 @@
 
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html> 
