@@ -1,11 +1,11 @@
 // Lista de usuarios creados. Cada uno es un objeto.
-var usuarios = [];
+var usuarios = []; //lo que hace el var es guardar datos que se colocaron dentro de esa caja
 
 // Se ejecuta al hacer click en "Crear usuario".
 function crearUsuario() {
     // Lee lo que escribieron en los inputs.
-    var usuario = document.getElementById("usuario").value;
-    var clave = document.getElementById("clave").value;
+    var usuario = document.getElementById("usuario").value;//guarda el dato que se colocó en esa caja en la variable usuario
+    var clave = document.getElementById("clave").value;//guarda el dato que se colocó en esa caja en la variable clave
 
     // Arma un objeto con el usuario y la clave.
     var nuevoUsuario = {
@@ -21,14 +21,14 @@ function crearUsuario() {
 }
 
 // Guarda el nombre de quien inició sesión. Vacío = nadie logueado.
-var usuarioLogueado = "";
+var usuarioLogueado = ""; //con el dato que ya guardo el var, lo utiliza en esta linea
 // Nombres que se anotaron en el sorteo.
-var sorteo = [];
+var sorteo = [];//lo que hace el var es guardar datos que se colocaron dentro de esa caja
 
 // Se ejecuta al hacer click en "Iniciar sesión".
 function iniciarSesion() {
-    var usuario = document.getElementById("usuario").value;
-    var clave = document.getElementById("clave").value;
+    var usuario = document.getElementById("usuario").value;//guarda el dato que se colocó en esa caja en la variable usuario
+    var clave = document.getElementById("clave").value;//guarda el dato que se colocó en esa caja en la variable usuario
     var encontrado = false;
 
     // Recorre los usuarios y busca si coinciden usuario y clave.
@@ -45,6 +45,8 @@ function iniciarSesion() {
         document.getElementById("mensaje").innerHTML = "Usuario o clave incorrectos";
     }
 }
+
+
 
 // Se ejecuta al hacer click en la copa.
 function unirmeAlSorteo() {

@@ -1,89 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ¡Noticias del momento! MilaNews</title>
-    <link rel="icon" type="image/ico" href="./img/header/favicon.ico"> 
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title> ¡Noticias del momento! MilaNews</title>
+            <link rel="icon" type="image/ico" href="./img/header/favicon.ico"> 
+        <link href="style.css" rel="stylesheet" type="text/css">
 
-</head>
+    </head>
 
-<body>
-    
-    <header> 
-        <nav> 
+    <body>
+        
+        <header> 
+            <nav> 
 
-            <a href="" title=""> Política </a>    
-            <a href="" title=""> Economía </a>    
-            <a href="" title=""> Deporte </a>    
-            <a href="" title=""> Tecnología </a>    
-            <a href="" title=""> Arte </a>    
+                <a href="" title=""> Política </a>    
+                <a href="" title=""> Economía </a>    
+                <a href="" title=""> Deporte </a>    
+                <a href="" title=""> Tecnología </a>    
+                <a href="" title=""> Arte </a>    
 
-        </nav>
-        <section class="head">
+            </nav>
+            <section class="head">
 
-            <img src="img/header/logo.jpg" alt="Logo de MilaNews"> 
-
-        </section>
-    </header>
-
-    <section class="login">
-        <h2>Crear usuario</h2>
-        <label>Usuario</label>
-        <input type="text" id="usuario">
-
-        <label>Contraseña</label>
-        <input type="password" id="clave">
-
-        <button type="button" onclick="crearUsuario()">Crear usuario</button>
-        <button type="button" onclick="iniciarSesion()">Iniciar sesión</button>
-        <p id="mensaje"></p>
-    </section>
-
-    <section class="sorteo">
-        <h2>Sorteo</h2>
-        <button type="button" class="copa" onclick="unirmeAlSorteo()">🏆</button>
-        <p>Hacé click en la copa para sumarte</p>
-        <p id="mensajeSorteo"></p>
-        <p id="listaSorteo"></p>
-        <button type="button" onclick="hacerSorteo()">Sortear</button>
-        <p id="ganador"></p>
-    </section>
-
-    <main> 
-        <section class="Sectionardo"> 
-            <section class="anuncio"> 
-
-                test anuncio
+                <img src="img/header/logo.jpg" alt="Logo de MilaNews"> 
 
             </section>
-        <section class="noticias">   
-            <section class="mainbody"> 
+        </header>
 
-                test main
+        <main> 
+            <section class="Sectionardo"> 
+                <section class="noticias">   
+                    <section class="todonoti"> 
+                        <section class="notiespa">
+                            <a href="" title=""><img src="img/españa.jfif" alt="España ganador del mundial 2026 de fútbol"></a>
+                            <a href="" title=""><h2>EL MUNDO TIENE NUEVO CAMPEÓN</h2></a><a href="" title="">ESPAÑA GANA LUEGO DE UN PARTIDO HISTÓRICO CONTRA LA SCALONETA</a>
+                        </section>
+                        <section class="">
+                            
+                        </section>
+                    </section>
+                    <section class="hilera"> 
 
+                        test hilera
+
+                    </section>
+                </section>  
             </section>
-            <section class="hilera"> 
+        </main>
+        <footer>
+            <section class="foot">
+                    <section class="logo">
+                        <img src="img/header/logo.jpg" alt="Logo de MilaNews"> 
+                    </section>
+                    <section class="user">
+                        <h2>Crear usuario</h2>
+                        <label>Usuario</label>
+                        <input type="text" id="usuario">
 
-                test hilera
+                        <label>Contraseña</label>
+                        <input type="password" id="clave">
 
+                        <button type="button" onclick="crearUsuario()">Crear usuario</button>
+                        <button type="button" onclick="iniciarSesion()">Iniciar sesión</button>
+                        <p id="mensaje"></p>
+                    </section>
+                    <section class="sorteo">
+                        <h2>Sorteo</h2>
+                        <button type="button" class="copa" onclick="unirmeAlSorteo()">🏆</button>
+                        <p>Hacé click en la copa para sumarte</p>
+                        <p id="mensajeSorteo"></p>
+                        <p id="listaSorteo"></p>
+                        <button type="button" onclick="hacerSorteo()">Sortear</button>
+                        <p id="ganador"></p>
+                    </section>
             </section>
-        </section>  
-        </section>
-    </main>
-    <footer>
-        <section class="foot">
-            <section class="logsocial">
-                <section class="logo">
-                    <img src="img/header/logo.jpg" alt="Logo de MilaNews"> 
-                </section>
-            </section>
-        </section>
 
-    </footer>
+        </footer>
 
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html> 
